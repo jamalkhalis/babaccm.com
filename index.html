@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="./assets/libraries/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/libraries/flickity/flickity.css">
+	<link rel="stylesheet" type="text/css" href="./assets/libraries/aos/aos.css">
+
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<title class="text-capitalize">Senior healthcare at no cost to you.</title>
+	<link rel="icon" href="./assets/logo/fav-icon.png" sizes="32x32">
+	<link rel="icon" href="./assets/logo/fav-icon.png" sizes="192x192">
+	<link rel="apple-touch-icon" href="./assets/logo/fav-icon.png">
+
+</head>
+<body>
+
+	<!-- Headed -->
+	<section class="min-vh-100 container">
+		<!-- d-flex flex-column justify-content-center min-vh-100 -->
+		<header class="min-vh-100">
+			
+			<div class="bg-home"></div>
+
+			<div class="position-fixed w-100 top-0 start-0 end-0 z-index-12 navigation-nemu bg-sm-white">
+				<nav class="navbar navbar-expand-lg pb-0 pt-1 py-lg-2 navbar-light">
+					
+					<div class="container-fluid">
+
+						<a class="navbar-brand" href="index.html">
+							<img src="./assets/logo/logo.png" class="img-fluid w-sm-50 w-75">
+						</a>
+
+						<button class="navbar-toggler border-0 clr-green p-0 m-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="">
+							<svg xmlns="http://www.w3.org/2000/svg" width="50" height="40" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+								<line x1="3" y1="12" x2="21" y2="12"></line>
+								<line x1="3" y1="6" x2="21" y2="6"></line>
+								<line x1="3" y1="18" x2="21" y2="18"></line>
+							</svg>
+						</span>
+						</button>
+
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+							<ul class="navbar-nav mb-2 mb-lg-0 w-100 align-items-lg-center">
+
+								<li class="nav-item ms-lg-auto">
+									<a class="nav-link clr-black active" aria-current="page" href="index.html">Home</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link clr-black" href="./pages/services.html">Services</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link clr-black" href="./pages/faq.html">FAQ</a>
+								</li>
+
+								<li class="nav-item">
+									<!-- dropdown-toggle -->
+									<a class="nav-link  clr-black" href="./pages/news.html">News</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link clr-black" href="./pages/about-us.html">About</a>
+								</li>
+
+								<li class="nav-item me-auto">
+									<a class="nav-link clr-black" href="./pages/contact.html">Contact</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#">
+										<span class="social">
+										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 320 512" fill="currentColor"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+										</span>
+									</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#">
+										<span class="social">
+											<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="20" height="20" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg>
+										</span>
+									</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#">
+										<span class="social">
+										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope-plus" viewBox="0 0 16 16">
+										  <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
+										  <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-3.5-2a.5.5 0 0 0-.5.5v1h-1a.5.5 0 0 0 0 1h1v1a.5.5 0 0 0 1 0v-1h1a.5.5 0 0 0 0-1h-1v-1a.5.5 0 0 0-.5-.5Z"/>
+										</svg>
+										</span>
+									</a>
+								</li>
+
+								<li class="nav-item">
+									<a href="#" class="nav-link d-flex justify-content-lg-center align-items-center number">
+										<div class="social">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+										 	 <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+											</svg>
+										</div>
+										<div class="ms-2">888-881-0003</div>
+									</a>
+								</li>
+
+							</ul>
+
+
+						</div>
+
+					</div>
+
+				</nav>
+			</div>
+
+			<!-- vh-75 -->
+			<div class="min-vh-100">
+				<!-- vh-75 -->
+				<div class="row min-vh-100 align-items-center mt-5 pt-5 pt-lg-0 mt-lg-0">
+
+					<div class="col-12 col-lg-7 text-center text-lg-start" data-aos="fade-up" data-aos-duration="2000">
+						<h1 class="text-capitalize clr-orange">close the gaps in</h1>
+						<div class="ff-raleway-700 fs-60 ">Senior Healthcare <br> at NO COST to you.</div>
+						<div class="mt-5 mb-4">
+							<a href="./pages/contact.html" class="btn btn-primary btn-lg text-white" id="book-now">
+								Book now
+							</a>
+
+							<button type="button" class="ms-4 btn player" data-bs-toggle="modal" data-bs-target="#exampleModal">
+								<span class="position-relative mt-4 ms-4">
+									<a id="play-video" class="video-play-button bottom-0 start-0" href="#">
+									  <span></span>
+									</a>
+								</span>
+
+								<span class="ms-5">Watch Video</span>
+							</button>
+
+							<!-- Modal -->
+							<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							  <div class="modal-dialog modal-dialog-centered modal-xl height-webkit-fill-available">
+							    <div class="modal-content bg-transparent border-0 h-100">
+							      <!-- <div class="modal-header">
+							        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+							        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							      </div> -->
+							      <div class="modal-body h-100">
+							       <iframe width="" height="" class="h-100 w-100 img-fluid" src="https://www.youtube.com/embed/FKTHncn-5Vs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							      </div>
+							      <!-- <div class="modal-footer">
+							        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							        <button type="button" class="btn btn-primary">Save changes</button>
+							      </div> -->
+							    </div>
+							  </div>
+							</div>
+
+							
+
+						</div>
+
+						<div>
+							Have a question? <a href="./pages/faq.html" class="clr-green text-decoration-none">Please contact us</a>
+						</div>
+					</div>
+					<!-- min-h-100 -->
+					<div class="col-12 h-100 col-lg-5 position-relative" id="img-1-Parent" data-aos="fade-up" data-aos-duration="2000">
+						<!-- min-h-100 -->
+						<div class="position-relative mt-5 mt-lg-0" id="">
+							<img class="position-absolute img-fluid bottom-0 start-0" src="./assets/img/shape-1.png">
+							<img class="position-absolute img-fluid bottom-0 start-0" src="./assets/img/shape-2.png">
+							<img class="position-absolute img-fluid bottom-0 start-0" src="./assets/img/img-1.png" id="img-1">
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+
+		</header>
+
+	</section>
+
+	<!-- About Us -->
+	<section class="bg-gray-1 py-2 py-md-3">
+		<div class="container py-2 py-md-3 position-lg-relative">
+			<div class="row py-3 py-md-5 mx-2 mx-md-0">
+				<div class="col-12 col-lg-8 p-0" data-aos="fade-right" data-aos-duration="3000">
+					<img src="./assets/img/img-2.jpg" class="img-fluid border-radius-5px">
+				</div>
+			
+				<div class="col-12 col-lg-7 position-lg-absolute mt-4 mt-lg-0 box-shodow-p" data-aos="fade-left" data-aos-duration="2000">
+					<div class="p-3 p-md-4 p-lg-5 bg-white border-radius-5px">
+						<div class="clr-green mb-2">
+							<h3>WHO WE ARE</h3>
+						</div>
+						<h2 class="ff-raleway-700 clr-black mb-4">
+							<div>
+								Baba Long Term Care Management, Inc. 
+							</div>
+							<div>
+								Smarter Chronic Care Management to advance your practice & patient health.  
+							</div>
+						</h2>
+						<p class="clr-black">
+							Baba LTC provides physician offices an integrated concierge service to seniors through Medicare or Medicare HMO’s. Baba LTC allows your office to bill for chronic care management (CCM) such as care coordination, referral management, prior authorizations, patient assistance programs, disease education and more. Even though we offer a variety of services, you have the option to choose one or multiple services depending on your needs.
+						</p>
+
+						<div class="">
+							<a href="./pages/about-us.html" class="clr-orange">
+								<small>Read more</small>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+								  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<!-- our mission our vision our core value -->
+	<section class="bg-gray-1 py-2 py-lg-3">
+		<div class="container">
+
+			<div class="row">
+
+				<div class="co-12 col-lg-8">
+					<div class="card border-0 mb-3 p-4 mt-4" data-aos="fade-right" data-aos-duration="2000">
+					  <div class="row g-0">
+					    <div class="col-md-4">
+					      <img src="./assets/icons/undraw_career_progress_ivdb.svg" class="img-fluid rounded-start" alt="...">
+					    </div>
+					    <div class="col-md-8">
+					      <div class="card-body ps-5">
+					        <h2 class="card-title ff-raleway-600"> Our Mission</h2>
+					        <p class="card-text">
+					        	To help implement simplified and sustainable solutions for long-term care industry issues – one senior, one facility, one company and one community at a time.
+					        </p>
+					        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+
+
+				<div class="co-12 col-lg-8 mx-auto">
+					<div class="card border-0 mb-3 p-4 mt-4" data-aos="fade-right" data-aos-duration="3000">
+					  <div class="row g-0">
+					    <div class="col-md-4">
+					      <img src="./assets/icons/undraw_forming_ideas_re_2afc.svg" class="img-fluid rounded-start" alt="...">
+					    </div>
+					    <div class="col-md-8">
+					      <div class="card-body ps-5">
+					        <h2 class="card-title ff-raleway-600"> Our Vision</h2>
+					        <p class="card-text">
+					        	To establish Baba LTC as the premier consulting company in the long-term care industry within the United States while still maintaining our uncompromising principles, purpose, and sense of community as we grow.
+					        </p>
+					        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+
+
+
+				<div class="co-12 col-lg-8 ms-auto">
+					<div class="card border-0 mb-3 p-4 mt-4" data-aos="fade-right" data-aos-duration="3000">
+					  <div class="row g-0">
+					    <div class="col-md-4">
+					      <img src="./assets/icons/undraw_medicine_b-1-ol.svg" class="img-fluid rounded-start" alt="...">
+					    </div>
+					    <div class="col-md-8">
+					      <div class="card-body ps-5">
+					        <h2 class="card-title ff-raleway-600"> Our Core Values</h2>
+					        <p class="card-text">
+					        	<div>
+					        		W– Wealth of Knowledge
+					        	</div>
+								<div>
+									E – Excellence
+								</div>
+								<div>
+									C – Courage
+								</div>
+								<div>
+									A – Accountability
+								</div>
+								<div>
+									R – Respect
+								</div>
+					        </p>
+					        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Services  -->
+	<section class="py-2 py-md-3 bg-gray-1">
+		<div class="container py-4">
+
+			<div class="container text-center pt-5">
+				<div class="clr-green mb-2">
+					<h3 class="text-capitalize"> Our services </h3>
+				</div>
+				<h1 class="ff-raleway-700 clr-black mb-4">
+					BABA LTC
+				</h1>
+				<p>
+					Primary Care Practices: Streamline your path to value based medicine and increase your income, cost savings,
+					compliance and service quality.
+				</p>
+			</div>
+
+
+			<div class="container pt-5">
+				<div class="row">
+
+					<div class="col-12 col-md-6 col-lg-4 border-radius-5px">
+						<div class="card border-0 bg-white p-4" data-aos="fade-right" data-aos-duration="3000">
+							<img src="./assets/img/img-9.jpg" class="card-img-top" alt="...">
+							<div class="card-body p-0 pt-3">
+								<h3 class="card-title ff-raleway-600">CCM</h3>
+								<p class="card-text">
+									Coordinated Care between office, family, pharmacy, patient and care providers
+								</p>
+
+								<div class="">
+									<a href="./pages/services.html" class="clr-orange">
+										<small>Read more</small>
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+										  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+										</svg>
+									</a>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-6 col-lg-4 pt-4 pt-md-0 border-radius-5px">
+						<div class="card border-0 bg-white p-4">
+							<img src="./assets/img/img-10.jpg" class="card-img-top" alt="...">
+							<div class="card-body p-0 pt-3">
+								<h3 class="card-title ff-raleway-600">MRA</h3>
+								<p class="card-text">
+									Our certified coders identify the high-risk codes biannually at no cost for you.
+								</p>
+
+								<div class="">
+									<a href="pages/services.html" class="clr-orange">
+										<small>Read more</small>
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+										  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+										</svg>
+									</a>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-12 col-md-6 col-lg-4 pt-4 pt-lg-0 border-radius-5px">
+						<div class="card border-0 bg-white p-4" data-aos="fade-left" data-aos-duration="3000">
+							<img src="./assets/img/img-11.jpg" class="card-img-top" alt="...">
+							<div class="card-body p-0 pt-3">
+								<h3 class="card-title ff-raleway-600">TCM</h3>
+								<p class="card-text">
+									Care Transition Follow-up with Specialists, Rehab, Hospital, Transfers, etc.
+								</p>
+
+								<div class="">
+									<a href="./pages/services.html" class="clr-orange">
+										<small>Read more</small>
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+										  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+										</svg>
+									</a>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+				
+			</div>
+
+		</div>
+
+	</section>
+
+
+	<!-- Baba integration -->
+	<section class="py-1 py-md-2 pb-lg-4 bg-gray-1">
+		<div class="container py-4">
+
+			<div class="container text-center pt-5">
+
+				<h1 class="ff-raleway-700 clr-black mb-4 display-inline mx-auto w-100 w-lg-75">
+					Baba Integration with your Practice is Easier than you think.
+				</h1>
+			</div>
+
+			<div class="text-center pt-4">
+				<img src="./assets/img/img-17.jpg" class="img-fluid border-radius-5px">
+			</div>
+
+		</div>
+
+	</section>
+
+
+
+	<!-- Testimonial -->
+
+<!-- 	<section class="bg-gray-1 py-5">
+
+		<div class="container text-center pt-5">
+			<div class="clr-green mb-2">
+				<h3> Testimonial </h3>
+			</div>
+			<h2 class="ff-raleway-700 clr-black mb-4">
+				What Our Client Say About Us
+			</h2>
+		</div>
+
+
+		<div class="container pb-5 pt-3">
+			
+			<div class="main-gallery ">
+			  <div class="gallery-cell">
+			    <div class="testimonial">
+			        <img class="testimonial-avatar rounded-5 img-fluid" src="./assets/img/img-15.jpg">
+			      <q class="testimonial-quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris ex, gravida ut leo eu, rhoncus porta orci. Fusce vitae rutrum nulla."</q>
+			      <span class="testimonial-author">Joe Smith, CEO of Cubix</span>
+			    </div>
+			  </div>
+			  <div class="gallery-cell">
+			     <div class="testimonial">
+			        <img class="testimonial-avatar rounded-5 img-fluid" src="./assets/img/img-12.jpg">
+			      <q class="testimonial-quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris ex, gravida ut leo eu, rhoncus porta orci. Fusce vitae rutrum nulla."</q>
+			      <span class="testimonial-author">Lisa Jones, Freelance Web Developer</span>
+			    </div>
+			  </div>
+			  <div class="gallery-cell">
+			        <div class="testimonial">
+			        <img class="testimonial-avatar rounded-5 img-fluid" src="./assets/img/img-14.jpg">
+			      <q class="testimonial-quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris ex, gravida ut leo eu, rhoncus porta orci. Fusce vitae rutrum nulla."</q>
+			      <span class="testimonial-author">Ryan Waltz, Front-End Developer</span>
+			    </div>
+			  </div>
+			</div>
+
+		</div>
+
+	</section> -->
+
+
+
+
+	<!-- Our Doctors -->
+	<section class="bg-gray-1 py-3 py-md-5">
+
+		<div class="container text-center">
+			<div class="clr-green mb-2">
+				<h3> Our Leadership </h3>
+			</div>
+			<!-- <h2 class="ff-raleway-700 clr-black mb-4">
+				Meet Our Specialized Leaders
+			</h2> -->
+		</div>
+
+		<div class="container pt-4">
+			<div class="row">
+
+				<div class="col-12 col-md-6 col-lg-3 border-radius-5px">
+					<div class="card border-0 bg-white p-4">
+						<img src="./assets/img/img-12.jpg" class="card-img-top" alt="...">
+						<div class="card-body p-0 pt-3">
+							<h3 class="card-title ff-raleway-600">Dr. Chris Low</h3>
+							<p class="card-text">Chief Executive Officer</p>
+
+							<div class="">
+								<a href="./pages/dr-chris-low.html" class="clr-orange">
+									<small> Read Full Bio</small>
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+									  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+									</svg>
+								</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-3 pt-4 pt-md-0 border-radius-5px">
+					<div class="card border-0 bg-white p-4">
+						<img src="./assets/img/img-13.jpg" class="card-img-top" alt="...">
+						<div class="card-body p-0 pt-3">
+							<h3 class="card-title ff-raleway-600">Patrick O'Brien</h3>
+							<p class="card-text">Chief Operating Officer</p>
+
+							<div class="">
+								<a href="./pages/patrick-OBrien.html" class="clr-orange">
+									<small> Read Full Bio</small>
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+									  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+									</svg>
+								</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-12 col-md-6 col-lg-3 pt-4 pt-lg-0 border-radius-5px">
+					<div class="card border-0 bg-white p-4">
+						<img src="./assets/img/img-15.jpg" class="card-img-top" alt="...">
+						<div class="card-body p-0 pt-3">
+							<h3 class="card-title ff-raleway-600">Dr. Geetha Priyanka</h3>
+							<p class="card-text">Chairman of the Board-Baba Holdings Group Inc.</p>
+
+							<div class="">
+								<a href="./pages/geetha-priyanka.html" class="clr-orange">
+									<small> Read Full Bio</small>
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+									  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+									</svg>
+								</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-3 pt-4 pt-lg-0 border-radius-5px">
+					<div class="card border-0 bg-white p-4">
+						<img src="./assets/img/img-14.jpg" class="card-img-top" alt="...">
+						<div class="card-body p-0 pt-3">
+							<h3 class="card-title ff-raleway-600">Lindsey Dwyer</h3>
+							<p class="card-text">Chief of Staff</p>
+
+							<div class="">
+								<a href="./pages/lindsey-dwyer.html" class="clr-orange">
+									<small> Read Full Bio</small>
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+									  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+									</svg>
+								</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- Contact Us -->
+	<section class="py-4 bg-gray-1">
+		<div class="container py-5">
+		<div class="row">
+			<div class="col-lg-5 my-auto">
+				<img src="./assets/img/contact-us.svg" class="img-fluid">
+			</div>
+			<div class="col-lg-7">
+				<h3 class="clr-green">Contact Us</h3>
+				<h2 class="ff-raleway-600 pb-3">Get in Touch</h2>
+
+				<div class="row pt-4">
+					<div class="col-12 col-lg-6">
+						<label for="nameForm" class="form-label">Full Name</label>
+						<input type="text" class="form-control" id="nameForm" placeholder="John Snow">
+					</div>
+					<div class="col-12 col-lg-6 pt-4 pt-lg-0">
+						<label for="emailForm" class="form-label">Email</label>
+						<input type="email" class="form-control" id="emailForm" placeholder="name@example.com">
+					</div>
+				</div>
+
+				<div class="row pt-4">
+					<div class="col-12 col-lg-6">
+						<label for="phoneForm" class="form-label">Phone </label>
+						<input type="phone" class="form-control" id="phoneForm" placeholder="8888810003">
+					</div>
+					<div class="col-12 col-lg-6 pt-4 pt-lg-0">
+						<label for="subjectForm" class="form-label">Subject</label>
+						<input type="text" class="form-control" id="subjectForm" placeholder="Message subject">
+					</div>
+				</div>
+
+				<div class="pt-4">
+					<label for="messageForm" class="form-label">Your Message</label>
+					<textarea class="form-control" id="messageForm" rows="3" placeholder="Write your message"></textarea>
+				</div>
+
+				<button type="submit" class="btn btn-primary btn-lg mt-4" id="sendMessage">Send Message</button>
+
+				<h5 class=" clr-green mt-4" id="yourMessageIsSent">
+					
+				</h5>
+
+			</div>
+		</div>
+		</div>
+		
+	</section>
+
+
+
+	<!-- Footer -->
+	<footer class="bg-white clr-gray-2 mt-5 pt-5">
+		<section class="container pt-5">
+		<div class="row">
+
+			<div class="col-lg-3">
+				<div>
+					<a href="./index.html">
+						<img src="./assets/logo/logo.png">
+					</a>
+				</div>
+				<p class="py-4">
+					Close The Gaps In Senior Healthcare at NO COST to you.
+				</p>
+				<ul class="d-flex list-unstyled">
+					<li class="nav-item me-2">
+						<a class="nav-link" href="#">
+							<span class="social">
+							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 320 512" fill="currentColor">
+								<path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+							</span>
+						</a>
+					</li>
+
+					<li class="nav-item me-2">
+						<a class="nav-link" href="#">
+							<span class="social">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="20" height="20" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg>
+							</span>
+						</a>
+					</li>
+
+					<li class="nav-item me-2">
+						<a class="nav-link" href="#">
+							<span class="social">
+							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope-plus" viewBox="0 0 16 16">
+							  <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
+							  <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-3.5-2a.5.5 0 0 0-.5.5v1h-1a.5.5 0 0 0 0 1h1v1a.5.5 0 0 0 1 0v-1h1a.5.5 0 0 0 0-1h-1v-1a.5.5 0 0 0-.5-.5Z"/>
+							</svg>
+							</span>
+						</a>
+					</li>					
+
+				</ul>
+			</div>
+			<div class="col-lg-3">
+				<h3 class="pb-3 ff-raleway-600 clr-black">Contacts Info</h3>
+				
+				<div class="row pb-3">
+					<div class="col-lg-3"><span class="clr-green fw-bold">Address:</span></div>
+					<div class="col-lg-9"> 932 S Wickham Rd, Melbourne FL 32904</div>
+				</div>
+
+				<div class="row pb-3">
+					<div class="col-lg-3"><span class="clr-green fw-bold">Phone:</span></div>
+					<div class="col-lg-9"> 888-881-0003</div>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<h3 class="pb-3 ff-raleway-600 clr-black">Quick Links</h3>
+				<ul class="list-unstyled">
+					<li class="pb-3"><span class="cub"></span><a href="./pages/about-us.html" class="clr-gray-2">About Us</a></li>
+					<li class="pb-3"><span class="cub"></span><a href="./pages/services.html" class="clr-gray-2">Services</a></li>
+					<li class="pb-3"><span class="cub"></span><a href="./pages/contact.html" class="clr-gray-2">Contact Us</a></li>
+					<li class="pb-3"><span class="cub"></span><a href="./pages/news.html" class="clr-gray-2">News</a></li>
+					<li class="pb-3"><span class="cub"></span><a href="./pages/faq.html" class="clr-gray-2">FAQ</a></li>
+				</ul>
+			</div>
+
+			<div class="col-lg-3">
+				<h3 class="pb-3 ff-raleway-600 clr-black">Apps Download</h3>
+				<p>
+					Download today and get your free copy from Apple and Play Store
+				</p>
+
+				<div class="d-grid gap-2">
+					<button class="btn bg-black text-white" type="button">
+						<span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google-play" viewBox="0 0 16 16">
+							  <path d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z"/>
+							</svg>
+						</span>
+						<span>Play Store</span>
+					</button>
+					<button class="btn bg-gray-1 clr-black border-app-store" type="button">
+						<span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+							  <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+							  <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+							</svg>
+						</span>
+						<span>
+							App Store
+						</span>
+					</button>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="d-flex justify-content-between mt-5 py-3 hr">
+			<div>
+				Copyright © 2022 Baba LTC. All Right Reserved.
+			</div>
+
+			<div class=" dropup">
+			  <button class="btn dropdown-toggle clr-gray-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+			  	<span class="me-2">
+			  		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+					  <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+					</svg>
+			  	</span>
+			  	<span class="me-2">Language</span>
+			  	
+			  </button>
+			  <ul class="dropdown-menu">
+			    <li><a class="dropdown-item clr-gray-2" href="#">English</a></li>
+			    <li><a class="dropdown-item clr-gray-2" href="#">Espagnole</a></li>
+			  </ul>
+			</div>
+
+		</div>
+		</section>
+	</footer>
+	
+
+	<!-- Bootstrap JavaScript: Bundle with Popper -->
+	<script type="text/javascript" src="./assets/libraries/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="./assets/libraries/flickity/flickity.pkgd.min.js"></script>
+	<script type="text/javascript" src="./assets/libraries/aos/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+	<script type="text/javascript" src="./assets/js/scripts.js">
+	</script>
+
+	<script type="text/javascript">
+		const img1 = document.querySelector('#img-1');
+		const img1Parent = document.querySelector("#img-1-Parent");
+
+		let heightImg1 = img1.clientHeight;
+		  img1Parent.style.paddingTop = String(heightImg1)+"px";
+
+		window.addEventListener("resize", function(event) {
+
+		  heightImg1 = img1.clientHeight;
+		  img1Parent.style.paddingTop = String(heightImg1)+"px";
+
+		})
+	</script>
+</body>
+</html>
