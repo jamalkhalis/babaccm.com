@@ -63,7 +63,7 @@ sendMessage.addEventListener('click', function(event) {
     message: messageFormInput
   }
 
-  fetch("https://50.62.180.70:3001/contact", {
+  fetch("https://bcs.babaccm.com:8443/contact", {
     method: "post",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(messageObject)
@@ -73,7 +73,7 @@ sendMessage.addEventListener('click', function(event) {
     console.log(result);
 
     if (result) {
-      yourMessageIsSent.textContent = `Your message is sent! we will contact you, thank you so mush!`;
+      yourMessageIsSent.textContent = `Your message is sent! we will contact you, thank you so much!`;
       nameForm.value = "";
       emailForm.value = "";
       phoneForm.value = "";

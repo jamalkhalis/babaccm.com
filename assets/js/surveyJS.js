@@ -87,7 +87,7 @@ sendMessage.addEventListener('click', function(event) {
     valueCommentsRadio: valueCommentsRadio
   }
 
-  fetch("https://50.62.180.70:3001/survey", {
+  fetch("https://bcs.babaccm.com:8443/survey", {
     method: "post",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(messageObject)
@@ -96,7 +96,7 @@ sendMessage.addEventListener('click', function(event) {
   .then(result => {
     console.log("result: ",result);
     if (result) {
-      yourMessageIsSent.textContent = `Your patient survey is sent, thank you so mush!`;
+      yourMessageIsSent.textContent = `Your patient survey is sent, thank you so much!`;
       nameForm.value = "";
       emailForm.value = "";
       phoneForm.value = "";
